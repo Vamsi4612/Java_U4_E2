@@ -7,9 +7,10 @@ public class Car {
 	
 	
 	
-	public Car() {
-		
-	}
+	public Car(int numberOfPassenger, int numberOfKms) {
+        this.numberOfPassenger = numberOfPassenger;
+        this.numberOfKms = numberOfKms;
+    }
 	
 	
 	public int getNumberOfPassenger() {
