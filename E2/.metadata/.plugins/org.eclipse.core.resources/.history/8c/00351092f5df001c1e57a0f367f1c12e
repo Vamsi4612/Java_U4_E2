@@ -1,0 +1,36 @@
+package com.masai;
+
+import java.util.Scanner;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner scan = new Scanner(System.in);
+		Scanner scanString = new Scanner(System.in);
+		System.out.println("Enter no of students: ");
+		int num = scan.nextInt();
+		
+		Student[] students = new Student[num];
+		
+		students[0] = new Student();
+		
+		System.out.println("Enter student name: ");
+		String name = scanString.nextLine();
+		students[0].setName(name);
+		System.out.println("Enter student roll: ");
+		int roll = scan.nextInt();
+		students[0].setRoll(roll);
+		System.out.println("Enter student address: ");
+		String address = scanString.nextLine();
+		students[0].setAddress(address);
+		System.out.println("Enter student marks: ");
+		int marks = scan.nextInt();
+		students[0].setRoll(marks);
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.masai;
+
+public class OLA {
+	
+	public Car bookCar(int numberOfPassenger, int numberOfKMs) {
+		
+		
+	}
+
+	public int calculateBill(Car car) {
+		
+		
+		
+	}
+	
+	
+}

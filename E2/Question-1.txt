@@ -1,0 +1,35 @@
+Is-A relationshp:
+------------------
+
+if there is class Bike
+if there is class Car
+if there is class SportsBike
+
+now here we can say that SportsBike is a bike  ---> Here we implement Inheritence between the classes
+
+and we cannot say Car is a Bike  --> Here we cannot implement Inheritence
+
+
+HAS - A Relationship: 
+----------------------
+
+if there is class Car
+if there is class Engine
+if there is class AudiCar
+
+here we say that Car has a Engine --> this is HAS-A relationship -->inheritence not possible
+
+we cannot say Car has AudiCar --> this is IS-A relationship
+
+---------------------------------------------------------------------------------------------
+
+Access modifiers:
+------------------
+types:
+
+-->Public --   accessiable by all | we have to declare it using word 'public'
+-->default --  accessiable by all | no need of decleration
+-->protected --- access is limited| we have to declare it using word 'protected'|need 	authentication to access
+
+-->private --- access is limited | we have to use getters and setters to access | declared by 'private'
+
